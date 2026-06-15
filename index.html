@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<!--Elemento <head> provee información general (metadatos) del documento, incluyendo título y enlaces a las hojas de estilos.-->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Partidos de League of Legends</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <!-- Íconos de Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+        <!-- Tipografías de Google-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+
+        <!-- Estilos CSS (incluye Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+
+    <!--El elemento <body> define el cuerpo del HTML, es decir, todo el contenido *visible* en una página web.-->
+    <body id="page-top">
+
+        <!-- Navegación (barra superior)-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="https://www.riotgames.com/es">
+                    <img class="logo-navbar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcwUonXI95KsW7U_KJxnWbijsROBqQmKSRuIjpO7YOmQ&amp;s=10" alt="Logo de League of Legends" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#frase">Destacado</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Partidos</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#agenda">Agenda</a></li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" href="https://authenticate.riotgames.com/?client_id=prod-xsso-leagueoflegends&amp;code_challenge=HOhlKUJIpdLNC2XffuGlMJJ86Boaa-4DqmoSsZZ2euQ&amp;method=riot_identity_signup&amp;platform=web&amp;redirect_uri=https%3A%2F%2Fauth.riotgames.com%2Fauthorize%3F_gl%3D1*19s4fqg*_ga*MTQyMzg0NTk0My4xNzY2ODM2MTU5*_ga_0X9JWXB87B*czE3ODE1NDYzNzIkbzYkZzAkdDE3ODE1NDYzNzckajU1JGwwJGgw%26client_id%3Dprod-xsso-leagueoflegends%26code_challenge%3DHOhlKUJIpdLNC2XffuGlMJJ86Boaa-4DqmoSsZZ2euQ%26code_challenge_method%3DS256%26locale%3Des_ES%26prompt%3Dsignup%26redirect_uri%3Dhttps%253A%252F%252Fxsso.leagueoflegends.com%252Fredirect%26response_type%3Dcode%26scope%3Dopenid%2520account%2520email%2520offline_access%26state%3Da05521302b7130008861f1c7bd%26ui_locales%3Den-US%26uri%3Dhttps%253A%252F%252Fleagueoflegends.com%252Fes-es&amp;security_profile=low">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-controller me-2"></i>
+                            <span class="small">Jugar</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Portada-->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+
+                        <!-- Texto de la portada-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1>La grieta se juega en vivo</h1>
+                            <p>Agenda de partidos de League of Legends con foco en equipos, estrategias, objetivos y momentos clave de cada serie.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <!-- Imagen de la portada-->
+                        <img class="img-fluid d-block mx-auto imagen-portada" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Mapa_-_Grieta_del_Invocador.png/revision/latest?cb=20220723204856&amp;path-prefix=es" alt="Mapa de la Grieta del Invocador" width="408" />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Módulo corto con una cita-->
+        <aside class="text-center bg-gradient-primary-to-secondary" id="frase">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <h2>Sports: una buena pelea por Baron puede cambiar toda la partida</h2>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+        <!-- Módulo grande con 4 íconos-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+
+                                    <!-- Ícono 1-->
+                                    <div class="text-center">
+                                        <i class="bi-trophy icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Campeones</h3>
+                                        <p class="text-muted mb-0">Series al mejor de cinco donde cada draft puede definir el campeonato.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+
+                                    <!-- Ícono 2-->
+                                    <div class="text-center">
+                                        <i class="bi-lightning-charge icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Jugadas clave</h3>
+                                        <p class="text-muted mb-0">Iniciaciones, robos de objetivos y teamfights que dan vuelta el mapa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+
+                                    <!-- Ícono 3-->
+                                    <div class="text-center">
+                                        <i class="bi-shield-shaded icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Composiciones</h3>
+                                        <p class="text-muted mb-0">Análisis de campeones, líneas fuertes y condiciones de victoria.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+
+                                    <!-- Ícono 4-->
+                                    <div class="text-center">
+                                        <i class="bi-broadcast icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">En directo</h3>
+                                        <p class="text-muted mb-0">Seguimiento de partidas, marcadores y próximos cruces del torneo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0">
+
+                        <!-- Imagen del módulo de íconos-->
+                        <div class="imagen-features">
+                            <img class="img-fluid d-block mx-auto" src="https://www.riotgames.com/darkroom/1440/a4e88f6b04bf83f1c417e87292b85606:b62ff9b783f3dd26a6321e1440efe13b/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png" alt="lol" width="408" />
+                            <img class="img-fluid d-block mx-auto imagen-features-alterna" src="https://sm.ign.com/t/ign_es/screenshot/default/league-of-legends_yb4r.1200.jpg" alt="Imagen de League of Legends publicada por IGN" width="408" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Nueva sección: agenda de partidos-->
+        <section id="agenda" class="agenda-section">
+            <div class="container px-5">
+                <div class="agenda-encabezado text-center">
+                    <p class="agenda-etiqueta">Notas</p>
+                    <h2>Últimas notas y próximos partidos</h2>
+                    <p>Una vista rápida para seguir cambios, cruces importantes y momentos del día.</p>
+                </div>
+
+                <div class="row gx-4 gy-4">
+                    <div class="col-md-4">
+                        <article class="partido-card">
+                            <div class="partido-estado">En vivo</div>
+                            <div class="partido-equipos">
+                                <span>Dragons</span>
+                                <strong>vs</strong>
+                                <span>Titans</span>
+                            </div>
+                            <p>Mapa 2 de 3 · Baron en disputa</p>
+                            <div class="partido-hora">18:30</div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="partido-card partido-card-destacado">
+                            <div class="partido-estado">Partido clave</div>
+                            <div class="partido-equipos">
+                                <span>Fenix</span>
+                                <strong>vs</strong>
+                                <span>Kraken</span>
+                            </div>
+                            <p>Semifinal · Serie al mejor de cinco</p>
+                            <div class="partido-hora">20:00</div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="partido-card">
+                            <div class="partido-estado">Próximo</div>
+                            <div class="partido-equipos">
+                                <span>Wolves</span>
+                                <strong>vs</strong>
+                                <span>Ravens</span>
+                            </div>
+                            <p>Fase regular · Pelea por playoffs</p>
+                            <div class="partido-hora">21:15</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Pie de página (footer)-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">Agenda, análisis y cobertura de partidas de League of Legends</div>
+                    <a href="https://www.leagueoflegends.com/es-es/champions/">Campeones</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="https://lolesports.com/es-ES">Sports</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="https://www.leagueoflegends.com/es-es/news/tags/patch-notes/">Notas</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JavaScript de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+        <!-- JavaScript del sitio-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
+
+
